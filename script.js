@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 const headerBurger = document.querySelector('.header__burger');
 const headerMenu = document.querySelector('.header__menu');
-const menuBacktocontent = document.querySelector('.menu__backtocontent');
+const menuBackToContent = document.querySelector('.menu__back-to-content');
 
 console.log(headerBurger);
 
@@ -13,7 +13,7 @@ headerBurger.addEventListener('click', () => {
   document.body.classList.toggle('lock');
 });
 
-menuBacktocontent.addEventListener('click', () => {
+menuBackToContent.addEventListener('click', () => {
   headerMenu.classList.toggle('active');
   document.body.classList.toggle('lock');
 });
