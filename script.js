@@ -14,6 +14,7 @@ headerBurger.addEventListener('click', () => {
 });
 
 menuBackToContent.addEventListener('click', () => {
+  headerBurger.classList.toggle('active');
   headerMenu.classList.toggle('active');
   document.body.classList.toggle('lock');
 });
